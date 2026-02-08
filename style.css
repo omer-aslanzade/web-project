@@ -5,8 +5,17 @@
 }
 
 @media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Menyunu alt-alta yığır */
+        height: auto;
+    }
     .search-box {
         padding: 10px;
+        width: 90%;
+        margin: 10px 0;
+    }
+    .anime-container {
+        grid-template-columns: 1fr 1fr; /* Şəkilləri 2-2 düzür (noutbukda 4-4 idisə) */
     }
     .search-box input {
         font-size: 0.9rem;
@@ -217,3 +226,4 @@ video{
     margin-bottom: 10px;
 
 }
+
