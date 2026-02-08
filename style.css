@@ -4,6 +4,21 @@
     box-sizing: border-box;
 }
 
+@media (max-width: 768px) {
+    .search-box {
+        padding: 10px;
+    }
+    .search-box input {
+        font-size: 0.9rem;
+    }
+    .logo a {
+        font-size: 1.2rem;
+    }
+    .nav-links {
+        gap: 15px;
+    }
+}
+
 
 
 
@@ -200,4 +215,5 @@ video{
 .anime-info h3 {
     font-size: 1.2rem;
     margin-bottom: 10px;
+
 }
